@@ -1,4 +1,6 @@
 package TAP::DOM::Db;
+# ABSTRACT: A database and application frontend for TAP based test results
+
 use Mojo::Base 'Mojolicious';
 
 # This method will run once at server start
