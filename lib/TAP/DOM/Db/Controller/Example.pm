@@ -1,4 +1,6 @@
 package TAP::DOM::Db::Controller::Example;
+# ABSTRACT: Just an example mojo controller
+
 use Mojo::Base 'Mojolicious::Controller';
 
 # This action will render a template

@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+# PODNAME: tapdomdb
+# ABSTRACT: Mojolicious-based frontend to TAP-DOM database
 
 use strict;
 use warnings;
