@@ -8,7 +8,7 @@ sub startup {
   my $self = shift;
 
   # Load configuration from hash returned by "my_app.conf"
-  my $config = $self->plugin('Config');
+  my $config = $self->plugin('Config', {file => 'tap-dom-db.conf'});
 
   # Documentation browser under "/perldoc"
   $self->plugin('PODRenderer') if $config->{perldoc};
